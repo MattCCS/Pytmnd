@@ -1,30 +1,16 @@
 Pytmnd
 ======
+Pytmnd is a dumb tool to load random top-rated YTMNDs!
 
-Instructions
+Requirements
 ------------
-Coming soon
+- Python 3.6+
+- pip3 (to install)
 
-Other Info
+Installation
+------------
+Run ``pip3 install pytmnd``
+
+How to Use
 ----------
-This file is a test of the common syntax between Markdown and ReStructured Text.
-
-They should both have:
-
-- unordered
-- lists
-- and
-
-1. ordered
-2. lists
-3. in common
-
-They should also have *italics* and **bold**.
-
-Even ``quoting`` should work, and code blocks are janky but possible::
-
-    Like this!  Wow
-
-    Look at these lines
-
-**<3**
+Run ``pytmnd``
