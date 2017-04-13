@@ -25,9 +25,7 @@ def parse_args():
 def offer_site(site):
     (url, title) = site
 
-    inp = input(f"[ ] Open '{title}'? (y/n) ")
-
-    if inp == 'y':
+    if input(f"[ ] Open '{title}'? (y/n) ") == 'y':
         print(f"    [+] Loading YTMND...\n")
         time.sleep(0.25)
         open_url(url)
@@ -44,7 +42,6 @@ def main():
     _ = parse_args()
 
     sites = ytmnd.fetch_top_sites()
-
     try:
         loop(sites)
     except KeyboardInterrupt:
