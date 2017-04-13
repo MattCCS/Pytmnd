@@ -8,7 +8,7 @@ from setuptools import setup
 setup(
     name = 'pytmnd',
     packages = ['pytmnd'],
-    version = '1.0.0-2',
+    version = '1.0.1',
     author='Matt Cotton',
     author_email='matthewcotton.cs@gmail.com',
     url='https://github.com/MattCCS/Pytmnd',
