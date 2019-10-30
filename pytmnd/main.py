@@ -45,7 +45,7 @@ def main():
     try:
         loop(sites)
     except KeyboardInterrupt:
-        print("\nYou're the man now, dog!")
+        print("\nYou're the man dog, now man!")
 
 
 if __name__ == '__main__':
